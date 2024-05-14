@@ -264,6 +264,7 @@ h6,
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
+        url(../img/bg-main.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px top 0px,
@@ -499,4 +500,8 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.bg-light {
+    background-color: #fbf3e8 !important;
 }
