@@ -508,3 +508,10 @@ h6,
 .text-primary {
     color: #6D512B !important;
 }
+.logo{
+    max-height: 100px !important;
+}
+
+.sticky-top.navbar-light .logo{
+    max-height: 45px !important;
+}
