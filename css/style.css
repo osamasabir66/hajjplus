@@ -203,6 +203,12 @@ h6,
         border-top: 1px solid #DDDDDD;
     }
 
+    .navbar-light .navbar-brand .logo {
+        background: url(../img/logomoblie.png) no-repeat !important;
+        width: 100px;
+        height: 100px;
+    }
+
     .navbar-light .navbar-nav .nav-link,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
@@ -514,4 +520,33 @@ h6,
 
 .sticky-top.navbar-light .logo{
     max-height: 45px !important;
+    background: url(../img/logo2.png) no-repeat !important;
+    width: 120px !important;
+    height: 100px;
+}
+
+.navbar-light .navbar-brand .logo{
+    background: url(../img/logo.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.brownbg{
+    background: #6D512B;
+}
+
+.customtop-margin{
+    margin-top: 60px;
+}
+
+
+
+.TermsCoverText {
+    text-align: justify;
+}
+.TermsCoverText p {
+    margin: 25px 0 25px 50px;
+}
+.TermsCoverText p b {
+    margin-right: 30px;
 }
