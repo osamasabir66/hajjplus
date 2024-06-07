@@ -149,7 +149,7 @@ h6,
     margin-right: 25px;
     padding: 45px 0;
     font-family: 'Jost', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--light) !important;
     outline: none;
@@ -549,4 +549,59 @@ h6,
 }
 .TermsCoverText p b {
     margin-right: 30px;
+}
+
+
+
+
+.accordion {
+    background-color: #fbf3e8;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    transition: 0.4s;
+    position: relative;
+    padding-right: 60px;
+    border-radius: 15px;
+  }
+  
+  .accordionactive, .accordion:hover {
+    background-color: #B49164;
+    color: #fff;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 14px;
+  }
+
+  .accordion i{
+      font-size: 14px;
+      position: absolute;
+      right: 30px;
+      top: 40%;
+  }
+
+
+  .howitworks{
+    height: 200px;
+  }.navbar-light .navbar-nav .nav-link
+
+  .feature-item {
+    transition: .5s;
+    min-height: 270px;
+}
+
+.feature-icon{
+    width: 38px;
 }
