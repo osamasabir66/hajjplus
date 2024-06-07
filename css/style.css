@@ -289,6 +289,7 @@ h6,
 /*** Feature ***/
 .feature-item {
     transition: .5s;
+    min-height: 270px !important;
 }
 
 .feature-item:hover {
@@ -597,10 +598,7 @@ h6,
     height: 200px;
   }.navbar-light .navbar-nav .nav-link
 
-  .feature-item {
-    transition: .5s;
-    min-height: 270px;
-}
+
 
 .feature-icon{
     width: 38px;
